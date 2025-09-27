@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './AuthPage.css';
+import '../styles/AuthPage.css';
 
 const initialState = {
   fullName: '',
@@ -142,7 +142,7 @@ const AuthPage = ({ onLogin }) => {
           </div>
           <h1 className="app-title">SHINE <span className="up-text">UP</span></h1>
           <p className="app-tagline">
-            <span className="welcome-text">Welcome to the Academic TikTok!</span><br />
+            <span className="welcome-text">Welcome to the Academic Shine UP</span><br />
             <span className="desc-text">
               Where brilliance meets opportunity.<br />
               Upload, share, and shine before you graduate!
@@ -150,7 +150,7 @@ const AuthPage = ({ onLogin }) => {
           </p>
           <div className="dev-pics">
             <img src="https://t2informatik.de/en/wp-content/uploads/sites/2/2019/07/development-team.jpg" alt="Developers" className="dev-img" />
-            <p className="dev-caption">Meet the Developers</p>
+            <p className="dev-caption">Meet the Opportunities Through Shine UP</p>
           </div>
         </div>
         <div className="auth-right">

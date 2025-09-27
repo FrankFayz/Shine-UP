@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaGraduationCap, FaUserCircle, FaBell } from 'react-icons/fa';
+import '../styles/header.css';
 
-const Header = () => {
+const Header = ({ onUploadClick }) => {
   return (
     <header className="header">
       <div className="logo-container">
@@ -29,7 +30,7 @@ const Header = () => {
         <button className="icon-btn">
           <FaUserCircle />
         </button>
-        <button className="upload-btn">
+        <button className="upload-btn" onClick={onUploadClick}>
           <FaGraduationCap />
           Upload Video
         </button>

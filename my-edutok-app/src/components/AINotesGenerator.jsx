@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaTimes, FaDownload, FaCopy, FaRobot } from 'react-icons/fa';
+import '../styles/AINotesGenerator.css';
 
 const AINotesGenerator = ({ videoTitle, onClose }) => {
   const [notes, setNotes] = useState(`# Summary: ${videoTitle}

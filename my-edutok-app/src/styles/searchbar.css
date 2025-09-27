@@ -1,0 +1,108 @@
+/* Search Bar */
+.search-bar-container {
+  padding: 1.5rem 2rem;
+  background: rgba(26, 26, 46, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.search-form {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 0 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.search-input-group:focus-within {
+  border-color: #ffb347;
+  box-shadow: 0 0 0 2px rgba(255, 179, 71, 0.2);
+}
+
+.search-icon {
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 0.5rem;
+}
+
+.search-input {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  padding: 1rem 0;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.voice-search {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.voice-search:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffb347;
+}
+
+.search-btn {
+  background: linear-gradient(135deg, #ff6b6b, #ffb347);
+  border: none;
+  padding: 0 2rem;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+}
+
+.popular-searches {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  max-width: 800px;
+  margin: 1rem auto 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.popular-tag {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.popular-tag:hover {
+  background: rgba(255, 179, 71, 0.2);
+  color: #ffb347;
+  border-color: #ffb347;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch, FaMicrophone } from 'react-icons/fa';
+import '../styles/searchbar.css';
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');

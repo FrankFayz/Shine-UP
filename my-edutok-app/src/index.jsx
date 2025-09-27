@@ -1,5 +1,5 @@
 
-import App from './pages/App.jsx';
+import AuthPage from './pages/AuthPage.jsx';
 
 
 
@@ -8,8 +8,8 @@ function Index() {
 
   return (
    
-     
-      <App/>
+     <AuthPage/>
+      
     
   );
 }
